@@ -5,7 +5,7 @@ from .forms import PostForm
 from django.shortcuts import redirect
 import json
 #from watson_developer_cloud import ToneAnalyzerV3
-from watson_developer_cloud.tone_analyzer_v3 import ToneInput
+#from watson_developer_cloud.tone_analyzer_v3 import ToneInput
 #from watson_developer_cloud import LanguageTranslatorV3
 from ibm_watson import LanguageTranslatorV3
 from ibm_watson import ToneAnalyzerV3
